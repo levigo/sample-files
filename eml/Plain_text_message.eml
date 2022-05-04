@@ -1,0 +1,26 @@
+X-Mozilla-Keys: nonjunk
+Return-Path: <cyrus@mail.levigo>
+X-Sieve: cmu-sieve 2.0
+Return-Path: <h.mustermann@levigo.de>
+Received: from brightmail.levigo.de (unknown [127.0.0.1])
+	by brightmail.levigo.de (Symantec Mail Security) with ESMTP id 349BC3058B;
+	Thu,  3 Apr 2008 20:14:52 +0200 (CEST)
+X-AuditID: 0ad0000d-ae76fbb000000b22-d8-47f51e9cd1e8
+Received: from ASSP-nospam (mail.levigo.de [127.0.0.1])
+	by mail.levigo.de (Postfix) with ESMTP id 7A32CBCF6
+	for <jsrvrtst@mail.levigo.de>; Thu,  3 Apr 2008 20:14:52 +0200 (CEST)
+Received: from 10.8.0.34 ([10.8.0.34] helo=[10.8.0.34]) by ASSP-nospam ;  3
+  Apr 08 18:14:52 -0000
+Message-ID: <47F51E99.7050101@levigo.de>
+Date: Thu, 03 Apr 2008 20:14:49 +0200
+From: Harald Mustermann <h.mustermann@levigo.de>
+User-Agent: Thunderbird 2.0.0.12 (Windows/20080213)
+MIME-Version: 1.0
+To: jsrvrtst@levigo.de
+Subject: Plain text message
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Plain text
+
+
