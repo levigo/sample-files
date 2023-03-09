@@ -19,6 +19,7 @@ import java.util.Objects;
 
 /**
  * This class can be used to sign PDF documents with different signature sub-filters.
+ * TODO: add signature algorithms for different subfilters
  */
 class CreateSignature {
 
@@ -35,6 +36,12 @@ class CreateSignature {
     }
   }
 
+  /**
+   * Inspired by: https://stackoverflow.com/questions/62601879/pdfbox-2-0-create-signature-field-and-save-incremental-with-already-signed-docum
+   * TODO: Not fully working yet, seems like the certificate is empty
+   * @param file
+   * @throws IOException
+   */
   private static void signWithAdobePkcs7Detached(final File file) throws IOException {
     try (final PDDocument doc = PDDocument.load(file);
          FileOutputStream fos = new FileOutputStream(file)) {
